@@ -1,2 +1,3 @@
  # linux
-installing VMWare on a headless RHEL6
+installing VMWare on RHEL6 server headless and no internet
+
