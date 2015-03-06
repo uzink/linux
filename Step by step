@@ -1,0 +1,27 @@
+install guest addition
+
+In Virtual Box Manager
+  Devices -> Install Guest Additions 
+
+in linux
+mount /dev/cdrom /mnt              # or any other mountpoint
+cd /mnt
+./VBoxLinuxAdditions.run
+reboot
+
+create a shared folder on the host
+
+attache it to the VM in virtual box settings / shared folder
+
+download virtual box + the extension pack
+
+put it in the shared folder
+
+start the VM
+
+download guest addiotion iso
+http://download.virtualbox.org/virtualbox/
+
+
+
+-get install -y VirtualBox-4.3-4.3.22_98236_el6-1.x86_64.rpm --print-uris > dependencies
